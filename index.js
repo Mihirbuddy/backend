@@ -31,8 +31,8 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-   // "mongodb+srv://picpotadmin:xAZFxjK01L3B6sCV@cluster0.m40rpoz.mongodb.net/picpot?retryWrites=true&w=majority"
-    "mongodb+srv://picpot:picpot@cluster0.vkd40v3.mongodb.net/picpot?retryWrites=true&w=majority&appName=Cluster0"
+   "mongodb+srv://picpotadmin:xAZFxjK01L3B6sCV@cluster0.m40rpoz.mongodb.net/picpot?retryWrites=true&w=majority"
+   // "mongodb+srv://picpot:picpot@cluster0.vkd40v3.mongodb.net/picpot?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(() => {
     app.listen(5000, () => {
